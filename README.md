@@ -9,7 +9,7 @@ Sensible webpack 5 boilerplate using Babel, PostCSS and Sass with a hot dev serv
 Clone this repo and npm install.
 
 ```bash
-npm i
+yarn install
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i
 ### Development server
 
 ```bash
-npm start
+yarn run start
 ```
 
 You can view the development server at `localhost:8080`.
@@ -25,19 +25,19 @@ You can view the development server at `localhost:8080`.
 ### Production build
 
 ```bash
-npm run build
+yarn run build
 ```
 
 > Note: Install [http-server](https://www.npmjs.com/package/http-server) globally to deploy a simple server.
 
 ```bash
-npm i -g http-server
+yarn global add http-server
 ```
 
 You can view the deploy by creating a server in `dist`.
 
 ```bash
-cd dist && http-server
+cd dist && npx http-server
 ```
 
 ## Features
